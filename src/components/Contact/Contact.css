@@ -1,0 +1,84 @@
+.contact-form .c-right{
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    height: 80vh;
+    margin-top: 4rem;
+      /* scroll */
+  padding-top: 3rem;
+
+  
+}
+
+.c-right{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex: 1;
+    margin-left: 45%;
+}
+
+.ww-left {
+    /* margin-right: 45%; */
+    /* padding-right: 55rem; */
+    display: flex;
+    position: absolute;
+    /* justify-content: center; */
+    /* text-align: left; */
+    /* flex: 1; */
+    right: 33rem;
+    margin-top:  4rem;
+}
+
+.c-right>form
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    
+}
+
+.c-right .user{
+    width: 20rem;
+    height: 2rem;
+    padding: 0.3em;
+    outline: none;
+    border: 2px solid #b0f2e8;
+    border-radius: 8px;
+    font-size: 16px;   
+}
+
+textarea{
+    height: 4rem!important;
+}
+
+.c-blur1{
+    top: 1rem;
+    left: 8rem;
+}
+
+@media screen and (max-width: 550px) {
+    .contact-form{
+        padding: 0;
+        flex-direction: row;
+        gap: 5rem;
+        height: 40rem;
+        flex: 1;
+    }
+    .c-right .user{
+        /* width: 1rem; */
+        width: 100%;
+        margin-top: 0;
+        flex:1;
+    }
+    .contact-form .ww-left{
+        /* margin-left: 5rem; */
+        flex: 100%
+    }
+
+    .contact-form .c-right{
+        width:60%;
+  margin-left:20%;
+    }
+
+}   

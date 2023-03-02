@@ -1,0 +1,23 @@
+.toggle{
+    display: flex;
+    justify-content:space-between;
+    border: 3px solid #b0f2e8;
+    border-radius: 1rem;
+    position: relative;
+    padding: 2px;
+    cursor: pointer;
+
+}
+.toggle>*{
+    width: 1rem;
+    height: 1rem;
+    /* color: var(--orange); */
+    color: #b0f2e8 ;
+}
+.t-button{
+    border-radius: 100%;
+    /* background: var(--orange); */
+    background: #b0f2e8;
+    /* color: linear-gradient(180deg, #87CEFA 26.71%, #9370DB 99.36%); */
+    position: absolute;
+}

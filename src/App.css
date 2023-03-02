@@ -1,0 +1,61 @@
+:root
+{
+  --yellow: #F5C32C;
+    --orange : #FCA61F;
+    --black : #242D49;
+    --gray : #788097;
+    --blueCard : #DDF8FE;
+    --purple: rgb(238 210 255);
+    /* --boxShadow : 0px 19px 60px rgb(0 0 0 / 8%); */
+    --box-shadow: 0px 20px 24px 3px rgba(134, 193, 237, 0.42);
+    --orangeCard: rgba(252, 166, 31, 0.45);
+    --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+    --monocolor :linear-gradient(#87CEFA 26.71%, #9370DB 99.36%);
+}
+
+.App{
+    padding: 0.5rem 3.5rem;
+    overflow: hidden;
+    color: var(--black);    
+}
+
+.button {
+  /* #fdc50f    #fb982f*/
+    background: linear-gradient(180deg, #87CEFA 26.71%, #9370DB 99.36%);
+    /* box-shadow: 0px 20px 24px 3px rgba(251, 161, 40, 0.42); */
+    box-shadow: 0px 20px 24px 3px rgba(134, 193, 237, 0.42);
+    border-radius: 34px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 11px 26px 11px 26px;
+  }
+  
+  .button:hover {
+    background: white;
+    cursor: pointer;
+    border: 1px solid #b0f2e8;
+    color: #b0f2e8;
+  }
+
+  @media screen and (max-width: 550px) {
+    .App {
+      /* padding: 0.5rem 1rem; */
+      padding-left: 1rem;
+      padding-right: 1rem;
+
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .App {
+      /* padding: 0.5rem 1rem; */
+      padding-left: 1rem;
+      padding-right: 1rem;
+
+    }
+  }
+
+  
+
+  
